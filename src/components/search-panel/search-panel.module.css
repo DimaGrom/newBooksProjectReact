@@ -1,0 +1,12 @@
+
+.search_panel {
+	width: 70%;
+	height: 38px;
+	padding-left: 12px;
+}
+
+@media (max-width: 770px) {
+	.search_panel {
+		width: 100%;
+	}
+}

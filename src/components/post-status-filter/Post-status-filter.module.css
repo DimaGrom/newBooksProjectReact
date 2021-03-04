@@ -1,0 +1,48 @@
+
+.post_status_filter {
+	display: flex;
+}
+
+@media (max-width: 770px) {
+	.post_status_filter {
+		width: 100%;
+		justify-content: space-between;
+   		margin-top: 10px;
+   		justify-content: flex-end;
+	}
+}
+
+.button {
+	display: block;
+	font-size: 16px;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 5px 12px;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+	transition: all 0.3s;
+	margin-left: 5px;
+}
+
+.button.activ {
+	background: #ff0000a8;
+	color: white;
+}
+
+.button.activ:hover {
+	background: red;
+	color: white;
+}
+
+.button.not_activ {
+	background: grey;
+	color: white;
+	opacity: 0.8;
+}
+
+.button.not_activ:hover {
+	background: grey;
+	color: white;
+	opacity: 1;
+}
